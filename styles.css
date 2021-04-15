@@ -26,11 +26,12 @@ img {
 }
 
 .inputform {
-    display:block;
-    width: 200px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    margin: auto;
+   width:600px;
+   height:100px;
+   border:2px solid lightgray;
+   
+    
+    
     
 
 }
