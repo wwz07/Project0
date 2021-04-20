@@ -25,12 +25,14 @@ img {
 
 }
 
-.inputform {
-    display:block;
-    width: 250px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    margin: auto;
-    
+.form {
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    border: 1px solid lightslategrey;
+    align-items: center;
+    margin: 10px;
+    padding-left: 15px;
+
 
 }
