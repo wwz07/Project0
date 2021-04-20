@@ -25,14 +25,18 @@ img {
 
 }
 
-.form {
+.form input{
     display: flex;
     flex-direction: row;
     border-radius: 25px;
     border: 1px solid lightslategrey;
     align-items: center;
     margin: 10px;
-    padding-left: 15px;
+    padding:12px 20px;
+    outline:none;
+    
 
 
 }
+
+
