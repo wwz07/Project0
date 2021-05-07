@@ -1,0 +1,206 @@
+/*create position for navigation menu*/
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+/*styling for navigation menu*/
+.header a {
+  
+  text-decoration: none;
+  float: right;
+  color: gray;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 14px;
+}
+
+/*styling for mouse hovering on navigation menu*/
+.header a:hover {
+  text-decoration: underline;
+}
+
+/*general style for all body content*/
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform:translateY(100px);
+  
+}
+
+/*styling for input form */
+.content .inputform {
+  border: 1px solid lightgrey;
+  padding: 12px 20px;
+  width: 500px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  border-radius: 25px;
+  background-image: url(search16px.png);
+  background-color: white;
+  background-position: 15px 15px;
+  background-repeat: no-repeat;
+}
+
+/*styling for mouse hovering over input form*/
+.content .inputform:hover {
+  box-shadow: 0 3px 3px 0 lightgrey;
+}
+
+/*Disabling input's default border display*/
+.content .inputform input {
+  margin-left: 25px;
+  outline: none;
+  border: none;
+  width: 350px;
+}
+
+/*lining button together*/
+.content .submitbutton {
+  display: flex;
+  flex-direction: row;
+}
+
+/*styling for submit button*/
+.content .submitbutton input[type="submit"] {
+  font-size: 14px;
+  font-family: sans-serif;
+  padding: 10px;
+  background-color: rgb(247, 247, 247);
+  border: none;
+  border-radius: 2px;
+  width: 140px;
+  transform: translateX(80%);
+  margin: 10px;
+}
+
+/*styling for submit button when cursor hovering*/
+.content .submitbutton input[type="submit"]:hover {
+  box-shadow: 0 0 1px 1px lightgray;
+}
+
+/*consistent to google-images page, the images text isn't part of logo file*/
+.content .subtext {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(46, 119, 253);
+  margin-top: -20px;
+  margin-right: -218px;
+}
+
+/*advance header logo page, google.png*/
+.header .adv-headerlogo{
+  display:flex;
+  margin-right:auto;
+  padding-left:10px;
+  
+}
+
+/*advance subheader on advance search page*/
+.subheader{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color:rgb(190, 79, 79);
+  margin-top:30px;
+  margin-left:50px;
+}
+
+/* line after the subheader text*/
+.subheader-line{
+  border-bottom:solid 1px rgb(230, 230, 230);
+  margin-top:30px;
+  margin-bottom:50px;
+}
+
+
+
+
+/*general setting for advance search content*/
+.adv-content{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:50px 50px;
+}
+
+/*input label header*/
+.adv-content .column-header{
+  display:inline-block;
+  font-size:14px;
+}
+
+.adv-content .column-header .blankspace{
+  display:inline-block;
+  width:550px;
+}
+
+.adv-content .column-header .explanation-header{
+  display:inline-block;
+  font-size: 12px;
+  color: grey;
+  font-weight:bold;
+}
+
+
+/*Input label setting*/
+.adv-content .search-opt label{
+  display:inline-block;
+  width:15%;
+  font-size:12px;
+}
+
+/*Input setting*/
+.adv-content .search-opt input[type="text"]{
+  width:35%;
+  border:1px solid rgb(185, 185, 185);
+  border-radius: 1px;
+  padding:6px 10px;
+  margin-top:10px;
+  
+}
+
+/* Input setting when clicked*/
+.adv-content .search-opt input[type="text"]:focus{
+  border:0.5px solid rgb(103, 103, 253);
+  outline:none;
+}
+
+/*General setting for instruction beside input form */
+.adv-content .search-opt .instruction{
+  display:inline-flex;
+  flex-wrap:wrap;
+  vertical-align: middle;
+  font-size:10px;
+  width:30%;
+  margin-left:15px;
+  
+}
+
+.adv-content .search-opt .example{
+  display:inline-flex;
+  flex-wrap: wrap;
+  font-family :'Courier New', Courier, monospace;
+  font-size:11px;
+  color:grey;
+  padding-left:5px;
+  
+}
+
+.adv-content  input[type="submit"]{
+  font-size:10px;
+  padding:8px 12px;
+  font-weight: bold;
+  color:white;
+  background-color: rgb(0, 174, 255);
+  border:0.5px solid rgb(112, 112, 112);
+  border-radius:2px;
+  margin-top:30px;
+  margin-left:540px;
+}
+
+.adv-content  input[type="submit"]:hover{
+  background-color:rgb(0, 153, 255);
+}
+
+
+
